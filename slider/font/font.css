@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Nunito Sans"),
+             url("../font/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.woff2") format("woff");
+  }
+
+  body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+@font-face {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Yeseva One"),
+             url("../font/YesevaOne-Regular.woff2") format("woff");
+  }

@@ -1,0 +1,427 @@
+/* tablet, iPad Air 1180x820 landscape */
+@media (min-width: 1024px) and (max-width: 1240px)  {
+	.main{}
+	/* топовая навигация */
+	.header {max-height: fit-content;}
+	.header__wrapper {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		padding: 0 .5rem;
+	}
+	.header__nav {margin: 1rem 0;}
+	.header__nav_items {flex-wrap: wrap;}
+	.header__nav_items li {margin: 0 1rem .5rem 0;}
+	/* топовая навигация */
+	.footer {
+		max-height: fit-content;
+		padding: 1rem 0;
+	}
+	.footer__wrapper {padding: 0 .5rem;}
+	.footer__wrapper,.footer__nav_items {flex-wrap: wrap;} /* перенос элементов навигации в подвале на новую строку */
+	.footer__nav_item,.footer .phone,.button-call {margin: 0 2rem 1rem 0;}
+}
+
+/* mobile, iPhone SE 375x667 landscape, Samsung Galaxy S8 740x360 landscape, малые мобильные landscape */
+@media (max-width: 768px) {
+	.main{}
+	/* топовая навигация */
+	.header {max-height: fit-content;}
+	.header__wrapper {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		padding: 0 .5rem;
+	}
+	.header__nav {margin: 1rem 0;}
+	.header__nav_items {flex-wrap: wrap;}
+	.header__nav_items li {margin: 0 1rem .5rem 0;}
+	/* топовая навигация */
+	.clients {padding-bottom: 8rem;}
+	.form3 {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+	.street {padding: 3rem 0 0 0;}
+	.map-img {margin-bottom:0;}
+	.main .heroes .conteiner,.footer .conteiner {margin: 0 1rem;} /* боковые отступы для контента */
+	.hero1 {
+		height: fit-content;
+		padding: 5rem 0;
+	}
+	.footer {
+		max-height: fit-content;
+		padding: 1rem 0;
+	}
+	.footer__wrapper,.footer__nav_items {flex-wrap: wrap;} /* перенос элементов навигации в подвале на новую строку */
+	ul.footer__nav_items,.footer .phone,.button-call {
+		font-size: 1rem;
+	}
+	.footer__nav_item,.footer .phone,.button-call {margin: 0 2rem 1rem 0;}
+}
+
+/* iPad mini in landscape, iPhone XR 896x414 landscape, 12PRO 844x390 landscape, Pixel 5 740x360 landscape, Samsung Galaxy S20 Ultra 915x412 landscape */
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1)  {
+	.main{}
+	body {overflow-x:hidden;}
+	/* топовая навигация */
+	.header {max-height: fit-content;}
+	.header__wrapper {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		padding: 0 .5rem;
+	}
+	.header__nav {margin: 1rem 0;}
+	/* топовая навигация */
+	.clients {padding-bottom: 8rem;}
+	.form3 {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+	.street {padding: 3rem 0 0 0;}
+	.map-img {margin-bottom:0;}
+	.main .heroes .conteiner,.footer .conteiner {margin: 0 1rem;} /* боковые отступы для контента */
+	.hero1 {
+		height: fit-content;
+		padding: 5rem 0;
+	}
+	.footer {
+		max-height: fit-content;
+		padding: 1rem 0;
+	}
+	.footer__wrapper,.footer__nav_items {flex-wrap: wrap;} /* перенос элементов навигации в подвале на новую строку */
+	ul.footer__nav_items,.footer .phone,.button-call {
+		font-size: 1rem;
+	}
+	.footer__nav_item,.footer .phone,.button-call {margin: 0 2rem 1rem 0;}
+}
+
+/* iPad mini 768x1024 portrait, iPad Air 820x1180 portrait, Surface Pro 7 912x1368 portrait */
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1)  {
+	.main{}
+	/* топовая навигация */
+	.header {max-height: fit-content;}
+	.header__wrapper {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		padding: 0 .5rem;
+	}
+	.header__nav {margin: 1rem 0;}
+	/* топовая навигация */
+	.clients {padding-bottom: 8rem;}
+	.form3 {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+	.street {padding: 3rem 0 0 0;}
+	.map-img {margin-bottom:0;}
+	.main .heroes .conteiner,.footer .conteiner {margin: 0 1rem;} /* боковые отступы для контента */
+	.hero1 {
+		height: fit-content;
+		padding: 5rem 0;
+	}
+	.footer {
+		max-height: fit-content;
+		padding: 1rem 0;
+	}
+	.footer__wrapper,.footer__nav_items {flex-wrap: wrap;} /* перенос элементов навигации в подвале на новую строку */
+	ul.footer__nav_items,.footer .phone,.button-call {
+		font-size: 1rem;
+	}
+	.footer__nav_item,.footer .phone,.button-call {margin: 0 2rem 1rem 0;}
+}
+
+/* iPhone 2G-4S in portrait - iPhone SE 375x667 portrait, XR 414x896 portrait, 12PRO 390x844 portrait, Samsung Galaxy A51/71 412x914 portrait */
+@media (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+	.main{}
+	html {min-width:320px;}
+	body {overflow-x:hidden;}
+	.header {height: 83px;}
+	#burger {
+		display: block;
+		width: 40px;
+		height: 42px;
+		border: 1px solid #FFF;
+		background-color: #000;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top:-.3rem;
+		right:1.3rem;	
+	}
+
+	
+	.header__wrapper .phone {
+		margin: 0 0 1.5rem;
+		font-size: 1.5rem;
+	}
+	.header__wrapper .button-call {
+		font-size: 1.5rem;
+	}
+	ul.header__nav_items {
+		flex-direction: column;
+		padding: 2rem 0 0;
+		font-size: 1.5rem;
+	}
+	ul.header__nav_items li {
+		padding: 0 0 1.5rem 0;
+	}
+	.header__wrapper {
+		display:block;
+		background: #131313;
+		padding: 0 0 1rem 1rem;
+		width: 78%;
+	}
+	.header__wrapper input[type=checkbox] {
+		position: absolute;
+		width: 40px;
+		height: 42px;
+		top:-.3rem;
+		right:1.3rem;
+		z-index: 1;
+		opacity: 0;
+	}
+	.header__wrapper .header__nav, .header__wrapper .phone, .header__wrapper .button-call {
+		display:none;
+	} /* элементы навигации скрыты */
+	.header__wrapper input[type=checkbox]:checked ~ .header__nav, 
+	.header__wrapper input[type=checkbox]:checked ~ .phone,
+	.header__wrapper input[type=checkbox]:checked ~ .button-call {
+		display:block;
+	} /* колдунство с кликом по мобильному меню здесь. при чеке невидимого чекбокса элементы навигации меняют видимость с none на block */
+
+	.header .conteiner {
+		z-index: 2;
+		position: relative;
+		width: 100%;
+	}
+	.logo {display: block;}
+	
+	.hero1 {
+		height: fit-content;
+		padding: 2rem 0 3rem;
+	}
+
+	.title {
+		font-size: 1.6rem;
+	}
+
+	.p1 {
+		font-size: 0.9rem;
+	}
+	.hero1 .buttons {
+		flex-direction: column;
+	}
+
+	.title2 {
+		font-size: 1.6rem;
+		display: flex;
+     	justify-content: center;
+
+	}
+	.hero2 {
+		padding: 2rem 0 23rem;
+	}
+
+	.hero2__title3 {
+		font-size: 1.2rem;
+	}
+	.hero2__wrapper {display: block;} /* меняем тип отображения блока с flex на block и перемещаем блок с фото. в потоке html он у нас остаётся на месте, а в мобильном отображении перемещается под текст описания */
+	.hero2__grid {margin-bottom: -16rem;}
+	.hero2__project1 > p {margin-bottom: 300px;} /* это место под блок hero2__project2 */
+	.hero2__project1 .arrow {display:none;}
+	.hero2__project2 {
+		position: relative;
+		top: -16.5rem;
+	} /* перемещаем блок наверх в отведённое под него место */
+	.hero2__project2 .arr {
+		display:block;
+		position:absolute;
+		transform: translate(0, -342%);
+	}	
+
+	.fantasies-second .arr {
+		display:block;
+		position:absolute;
+		transform: translate(0, -800%);
+	}
+	.hero2__project2 .arr.left {
+		left:1%;
+	}
+	.hero2__project2 .arr.right {
+		right:1%;
+	}
+
+
+	.fantasies-second .arr.left {
+		left:1%;
+	}
+	.fantasies-second .arr.right {
+		right:1%;
+	}
+	.button-calculate,.button-application {
+		display: block;
+		font-size: 1.1rem;
+		margin: 2rem 0 0 0;
+		padding: 20px;		
+	}
+	.video__content,.check {margin-bottom: 4rem;}
+	.form {
+		flex-direction: column;
+		margin: 0 1rem 1rem 1rem;
+		
+	}
+	.contact {margin: 0 0 3rem;}
+	.contact1 {padding: 0;}
+	.form__2 {
+		margin: 0 0 3rem;
+		padding: 3rem;
+	}
+	.form3 {
+		position: relative;
+		top: 0;
+		left: 0;
+		padding: 3rem;
+		max-width: fit-content;
+	}
+	.repair,.contact,.container__fantasies,.clients_section {
+		flex-direction: column;
+		gap: unset;
+	}
+	.button-cost {margin: -1.75rem 0 2rem 2rem;}
+	.fantasies {height: auto;padding-bottom: 2rem;margin-bottom: 4rem;}
+	.fantasies__first {padding: 3rem 0 0;}
+	div[class^="fantasies-"] img {margin: 1rem auto;} /* все img, находящиеся внутри div с именем класса, начинающегося с fantasies- */
+	.clients {padding-bottom: 0;}
+	.clients_section_item {padding: 2rem 0;}
+	.clients_section_item .time {margin:0;}
+	.street {padding: 3rem 0 0;}
+	.street .map-img {margin-bottom: 0;}
+	.footer .logo {margin: 0 0 2rem 0;}
+	.footer {
+		max-height: fit-content;
+		padding: 2rem 0 0;
+	}
+	.main .heroes .conteiner,.footer .conteiner {margin: 0 1rem;} /* боковые отступы для контента */
+	.footer__wrapper,.footer__nav_items {flex-wrap: wrap;} /* перенос элементов навигации в подвале на новую строку */
+	ul.footer__nav_items,.footer .phone,.button-call {
+		font-size: 1.3rem;
+	}
+	.footer__nav_item,.footer .phone,.button-call {margin: 0 2rem 2rem 0;}
+}
+
+@media (max-width: 375px) {
+	.main{}
+	ul.hero2__items {
+		display: none;
+	}
+
+	.hero2__project1 > p {
+		padding-bottom: 50px;
+	}
+	
+	
+
+	.conteiner__video {
+		background-color: #131313;
+		padding: 0 1rem 1rem;
+	}
+
+	.video__content {
+		color: #FFF;
+		font-size: 0.7rem;
+	}
+
+	.input_1 {
+		background-color: #131313;
+	}
+
+	.input_1::placeholder {
+		color: #FFF;
+		opacity: 1;
+	}
+
+	.info {
+		color: rgba(255, 255, 255, 0.50);
+	}
+
+	.check {
+		color: #FFF;
+	}
+
+	.button-submit {
+		justify-content: center;
+		padding: 12px 100px;
+		
+	}
+
+	.types_title {
+		margin-top: 90px;
+	}
+
+
+	.contacts {
+        display: none;
+    }
+
+	.clients {
+		display: none;
+	}
+
+	.fantasies::before {
+		display: none;
+	}
+	.fantasies {
+        background-image: none;
+          
+    }
+
+	.second-img2 {
+		display: none;
+	}
+
+	.styles {
+        display: none;
+    }
+
+	
+	.second-img2 {
+		display: none;
+	}
+
+
+    .fantasies-third {
+        display: none;
+    }
+	
+	.form3  {
+		margin-top: -150px;
+		z-index: -2;
+	}
+
+	.street {padding:0 0 2rem;}
+	.street .map-img {margin-bottom: 0;}
+	.street__title {margin: 0 0 2rem;}
+	.street__title::before {
+		content: '';
+		background-image: url('../images/png/map.png');
+		width: 100%;
+		height: auto;
+		position: relative;
+		background-size: contain;
+		left: 0px;
+		min-height: 300px;
+		display: block;
+		margin: 0 0 2rem;
+	}
+	.map-img {display:none;}
+	.email-img {margin-bottom:0;}
+
+	.footer {
+		display: none;
+	}
+}
+
+
+
