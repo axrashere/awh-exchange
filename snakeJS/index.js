@@ -35,16 +35,6 @@ if ( isset(localStorage.getItem('userData')) === true ) {
 	console.log('local storage is empty');
 	var scoreS = [
 		{
-			"name": "Анонним",
-			"score": 0,
-			"curr": false,
-		},
-		{
-			"name": "axr",
-			"score": 13,
-			"curr": true,
-		},
-		{
 			"name": "Liza",
 			"score": 5,
 			"curr": false,
@@ -56,7 +46,7 @@ if ( isset(localStorage.getItem('userData')) === true ) {
 		},
 		{
 			"name": "Казимир",
-			"score": 20,
+			"score": 15,
 			"curr": false,
 		}
 	];
