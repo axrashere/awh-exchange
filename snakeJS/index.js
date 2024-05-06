@@ -324,7 +324,6 @@ function askName(userDataCurrentSource) {
 			i = userDataCurrentSource.length-1;
 			userDataCurrent = userDataCurrentSource[i];
 			scoreFill(userDataCurrent,userDataCurrentSource);
-			userDataCurrent = userDataCurrentSource[i]; // awh why ?
 		};
 	} else {
 		alert('Раунд уже начался. Смена игрока невозможна.')
