@@ -42,7 +42,7 @@ if ( isset(localStorage.getItem('userData')) === true ) {
 		{
 			"name": "Ann",
 			"score": 10,
-			"curr": false,
+			"curr": true,
 		},
 		{
 			"name": "Казимир",
