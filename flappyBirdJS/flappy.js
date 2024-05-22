@@ -56,7 +56,7 @@ class Game {
 		this.bird = new Bird();
 		this.pipeArr = [ new Pipe("images/obstacle_top.png", -100) ];
 		this.gapBetweenPipes = 120;
-		this.pipeAppearingDistance = 350;
+		this.pipeAppearingDistance = 350; // было 400, но это жёстко
 		this.isGameover = false;
 	};
 	// методы
@@ -72,8 +72,8 @@ class Game {
 		console.log("добавляем трубу")
 		/*
 			после того как мы добавили трубу
-			можно двигать игровой процесс через setIntervals, но есть вариант интереснее:
-			если последний элемент массива в позиции 350, то...
+			можно двигать игровой процесс через setIntervals или requestAnimationFrame, но есть вариант интереснее:
+			если последний элемент массива в позиции 350 (дистанция между трубами), то...
 		*/
 		let lastIndex = this.pipeArr.length - 1;
 		let lastPipe = this.pipeArr[ lastIndex ];
