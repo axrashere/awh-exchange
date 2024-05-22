@@ -42,11 +42,11 @@ canvas.addEventListener( "click", () => {
 	game.bird.birdJump(); // прыг по клику мышки
 });
 
-window.onkeydown = function keyDown(e) {
+document.addEventListener("keydown", function(e){
 	if (e.keyCode == 32 || e.keyCode == 87 || e.keyCode == 38) {
 		game.bird.birdJump(); // прыг по пробелу, клавише W или стрелке вверх
 	};
-};
+},false);
 
 class Game {
 	// свойства
@@ -56,7 +56,7 @@ class Game {
 		this.bird = new Bird();
 		this.pipeArr = [ new Pipe("images/obstacle_top.png", -100) ];
 		this.gapBetweenPipes = 120;
-		this.pipeAppearingDistance = 400;
+		this.pipeAppearingDistance = 350;
 		this.isGameover = false;
 	};
 	// методы
@@ -73,7 +73,7 @@ class Game {
 		/*
 			после того как мы добавили трубу
 			можно двигать игровой процесс через setIntervals, но есть вариант интереснее:
-			если последний элемент массива в позиции 400, то...
+			если последний элемент массива в позиции 350, то...
 		*/
 		let lastIndex = this.pipeArr.length - 1;
 		let lastPipe = this.pipeArr[ lastIndex ];
